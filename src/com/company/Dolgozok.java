@@ -158,8 +158,8 @@ public class Dolgozok extends  JFrame  implements ActionListener {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (f.F8())
-                {JOptionPane.showMessageDialog(null,"Kész a diakok.txt");}
-                else{JOptionPane.showMessageDialog(null,"Nem sikerült elkésziteni a diakok.txt-t!");}
+                {JOptionPane.showMessageDialog(null,"Sikerült a fáljba írás (diakok.txt)");}
+                else{JOptionPane.showMessageDialog(null,"Sikertelen fáljba írás  (diakok.txt)!");}
             }
         });
 
